@@ -1,0 +1,138 @@
+$logo: "Oleo Script Swash Caps", cursive;
+$bodyFont: "Open Sans", sans-serif;
+
+$bg: #0d2021;
+$font: #478eb4;
+
+//whole page
+.app {
+  background-color: $bg;
+  color: $font;
+  font-family: $bodyFont;
+}
+.container {
+  height: 100vh;
+}
+
+.section-title {
+  font-size: 10em;
+}
+// HEADER section
+.header-style {
+  background-color: white;
+  .top-header {
+    font-family: $logo;
+    font-size: 30px;
+  }
+}
+.nav-wrapper {
+}
+.menu-icon {
+  position: fixed;
+  top: 10;
+  left: 10;
+  color: $font;
+}
+
+//TOP section
+.top {
+  height: 500px;
+  .fixed {
+    position: fixed;
+    top: 0px;
+    img {
+      width: 100%;
+      height: 100vh;
+    }
+    h1 {
+      // z-index: 1;
+      position: absolute;
+      top: 50%;
+      left: 20%;
+    }
+  }
+}
+
+// ABOUT section
+.about {
+  .grad {
+    // height: 1500px;
+    // background-color: $bg;
+    // background-image: linear-gradient(#7295a9, $bg);
+  }
+  h1 {
+    font-size: 10em;
+  }
+}
+.aboutContents {
+  height: 100vh;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  .left-container {
+    width: 50%;
+    img {
+      width: 100%;
+    }
+  }
+  .right-container {
+    width: 50%;
+    .text-area {
+      width: 100%;
+      padding: 30px;
+      font-size: 1.2em;
+      .spacer {
+        height: 10px;
+      }
+      h2 {
+        font-size: 2em;
+      }
+    }
+  }
+}
+
+// WORKs section
+.work {
+  height: 150vh;
+}
+.work_container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.overlay {
+  transition: 0.2s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 56px;
+}
+
+.work_container:hover .image {
+  opacity: 0.3;
+}
+
+.work_container:hover .overlay {
+  opacity: 1;
+}
+
+//CONTACT section
+.contact {
+  i {
+    font-size: 30px;
+    margin: 3px;
+  }
+}
