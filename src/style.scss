@@ -53,13 +53,22 @@ $font: #478eb4;
   }
 }
 
+.test {
+  opacity: 0;
+  transform: translateY(10em) rotateZ(-5deg);
+  transition: transform 4s 0.25s cubic-bezier(0, 1, 0.3, 1),
+    opacity 0.3s 0.25s ease-out;
+  // max-width: 600px;
+  // width: 90%;
+  will-change: transform, opacity;
+}
+.test.visible {
+  opacity: 1;
+  transform: translateY(-12em);
+}
+
 // ABOUT section
 .about {
-  .grad {
-    // height: 1500px;
-    // background-color: $bg;
-    // background-image: linear-gradient(#7295a9, $bg);
-  }
   h1 {
     font-size: 10em;
   }

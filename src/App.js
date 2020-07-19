@@ -6,6 +6,7 @@ import Works from "./Works";
 import Contact from "./Contact";
 import "./style.scss";
 import styled from "styled-components";
+import { useFadeIn } from "./use/useFadeIn";
 
 const BackGround = styled.div`
   /* if true, button will be visible */
@@ -26,18 +27,54 @@ const App = () => {
   //   console.log(window.scrollY);
   //   return () => window.removeEventListener("scroll", listenScrollEvent);
   // }, []);
+
+  const {
+    visibleSection,
+    // scrollTo,
+    headerRef,
+    aboutRef,
+    worksRef,
+    contactRef,
+  } = useFadeIn();
+
+  const showOnScroll = () => {
+    if (
+      visibleSection === "About" ||
+      visibleSection === "Works" ||
+      visibleSection === "Contact"
+    ) {
+      return "visible";
+    } else {
+      return "";
+    }
+  };
   return (
     <div className="app">
-      <Header />
+      {console.log("visible", showOnScroll())}
+      <div ref={headerRef}>
+        header
+        <Header />
+      </div>
+
       {/* <BackGround opacity={1 - scrAmount / 500}> */}
       <Top style={{ position: "fixed", top: 0 }} />
       {/* </BackGround> */}
       {/* <BackGround opacity={scrAmount / 1000}> */}
-      <About style={{ position: "fixed", top: 0 }} />
+      <div className={`test ${showOnScroll()}`} id="About" ref={aboutRef}>
+        <About
+          style={{ position: "fixed", top: 0 }}
+          // visible={visible}
+          // aboutRef={aboutRef}
+        />
+        {/* </div> */}
+      </div>
       {/* </BackGround> */}
-      <Works />
-
-      <Contact />
+      <div className={`test ${showOnScroll()}`} id="Works" ref={worksRef}>
+        <Works />
+      </div>
+      <div className={`test ${showOnScroll()}`} id="Contact" ref={contactRef}>
+        <Contact />
+      </div>
     </div>
   );
 };
