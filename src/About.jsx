@@ -1,14 +1,14 @@
 import React from "react";
-import Image from "./images/aboutPic.jpg";
+import Image from "./img/aboutPic.jpg";
 import "materialize-css";
 import { Row, Col, Container } from "react-materialize";
 
-const About = (props) => {
-  // const { visible, aboutRef } = props;
+const About = () => {
   return (
     <>
       <div className="about container">
         {/* <h1 className={`section-name ${visible}`} ref={aboutRef}> */}
+
         <h1 className="section-name">ABOUT</h1>
 
         <Container className="aboutContents">
