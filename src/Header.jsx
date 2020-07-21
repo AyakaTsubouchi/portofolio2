@@ -5,31 +5,42 @@ import { SideNav, Icon, SideNavItem } from "react-materialize";
 const Header = () => {
   return (
     <>
-      <SideNav
-        id="SideNav-10"
-        options={{
-          draggable: true,
-        }}
-        trigger={<Icon className="menu-icon">menu</Icon>}>
-        <SideNavItem
-          user={{
-            background: "https://placeimg.com/640/480/tech",
-            email: "jdandturk@gmail.com",
-            image: "static/media/react-materialize-logo.824c6ea3.svg",
-            name: "John Doe",
+      <div>
+        <style>
+          {`
+            #root > div > div {
+              z-index: 99999 !important;
+            }
+          `}
+        </style>
+        <SideNav
+          id="SideNav-10"
+          options={{
+            draggable: true,
           }}
-          userView
-        />
-        <SideNavItem href="#!icon" icon={<Icon>cloud</Icon>}>
-          First Link With Icon
-        </SideNavItem>
-        <SideNavItem href="#!second">Second Link</SideNavItem>
-        <SideNavItem divider />
-        <SideNavItem subheader>Subheader</SideNavItem>
-        <SideNavItem href="#!third" waves>
-          Third Link With Waves
-        </SideNavItem>
-      </SideNav>
+          className="side-nav"
+          trigger={
+            <a>
+              <Icon className="menu-icon">menu</Icon>
+            </a>
+          }>
+          <SideNavItem href="#top" waves className="sidenav-item">
+            Top
+          </SideNavItem>
+          <SideNavItem href="#about" waves className="sidenav-item">
+            About
+          </SideNavItem>
+
+          <SideNavItem subheader></SideNavItem>
+          <SideNavItem href="#works" waves>
+            Works
+          </SideNavItem>
+          <SideNavItem subheader></SideNavItem>
+          <SideNavItem href="#contact" waves>
+            Contact
+          </SideNavItem>
+        </SideNav>
+      </div>
     </>
   );
 };

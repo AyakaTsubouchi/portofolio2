@@ -1,46 +1,39 @@
 import React from "react";
 
-import BG from "./images/bg.svg";
-import "materialize-css";
-import { Parallax } from "react-materialize";
+// import backgroundImage from "./img/bg.svg";
+import backgroundImage from "./img/image.jpg";
+import logo from "./img/logo.png";
+import displacementMapImage from "./img/displacement_map_blurred.png";
 
 const Top = () => {
   return (
-    // <div className="top">
-    //   <div className="fixed">
-    //     <img src={BG} alt="ocean" />
-    //     <div id="About" style={{ height: "100px" }}></div>
-    //     <h1>I'll make your life easier with webdevelopment</h1>
-    //   </div>
-    // </div>
-    <div>
-      <Parallax
-        image={
-          <img alt="" src="http://materializecss.com/images/parallax1.jpg" />
-        }
-        options={{
-          responsiveThreshold: 0,
-        }}
-      />
-      <div className="section white">
-        <div className="row container">
-          <h2 className="header">Parallax</h2>
-          <p className="grey-text text-darken-3 lighten-3">
-            Parallax is an effect where the background content or image in this
-            case, is moved at a different speed than the foreground content
-            while scrolling.
-          </p>
+    <>
+      <div className="top wrapper">
+        <img
+          src={displacementMapImage}
+          id="displacementMap"
+          className="asset"
+        />
+        <div
+          style={{
+            width: "100%",
+            position: "absolute",
+            textAlign: "center",
+            zIndex: -1,
+          }}>
+          <img src={logo} id="logoImage" className="logo" />
+        </div>
+        <img
+          src={backgroundImage}
+          id="headerImage"
+          className="headerImage"
+          // style={{ width: "100%" }}
+        />
+        <div className="scroll-down">
+          <p>scroll down</p>
         </div>
       </div>
-      <Parallax
-        image={
-          <img alt="" src="http://materializecss.com/images/parallax2.jpg" />
-        }
-        options={{
-          responsiveThreshold: 0,
-        }}
-      />
-    </div>
+    </>
   );
 };
 

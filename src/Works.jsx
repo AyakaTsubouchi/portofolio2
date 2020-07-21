@@ -1,13 +1,13 @@
 import React from "react";
-import Work1 from "./images/fourcast.png";
-import Work2 from "./images/weatherApp.png";
+import Work1 from "./img/fourcast.png";
+import Work2 from "./img/weatherApp.png";
 import "materialize-css";
 import { Row, Col, Container } from "react-materialize";
 
 const Works = () => {
   return (
     <>
-      <div className="work container">
+      <div className="work wrapper">
         <h1 className="section-title">WORKS</h1>
 
         <div className="work_contents">
