@@ -12,17 +12,17 @@ const About = () => {
         <h1 className="section-name">ABOUT</h1>
 
         <Container className="aboutContents">
-          <Row className="aboutContents">
-            <Col s={1} m={6} l={6} xl={6} className="left-container">
+          <Row>
+            <Col s={12} m={6} l={6} xl={6} className="left-container">
               <img src={Image} alt="ayaka" />
             </Col>
-            <Col s={1} m={6} l={6} xl={6} className="right-container">
+            <Col s={12} m={6} l={6} xl={6} className="right-container">
               <div className="text-area">
                 <h2>Aya</h2>
                 <h4>Web Deisgner / Developera</h4>
                 <div className="spacer"></div>
                 <p>
-                  Nice meet you. My specialty is solving problems through
+                  Nice to meet you. My specialty is solving problems through
                   frontend development writing readable clean codes.(I'm
                   planning to be that kind of programmer) The infinite potential
                   and complex diversity of web technologies jerked my curiosity

@@ -1,17 +1,38 @@
 import React from "react";
 
-import backgroundImage from "./img/bg.svg";
-import logo from "./img/PngItem_578268.png";
+// import backgroundImage from "./img/bg.svg";
+import backgroundImage from "./img/image.jpg";
+import logo from "./img/logo.png";
 import displacementMapImage from "./img/displacement_map_blurred.png";
 
 const Top = () => {
   return (
     <>
-      <img src={displacementMapImage} id="displacementMap" className="asset" />
-      <div style={{ width: "100%", position: "absolute", textAlign: "center" }}>
-        <img src={logo} id="logoImage" className="logo" />
+      <div className="top wrapper">
+        <img
+          src={displacementMapImage}
+          id="displacementMap"
+          className="asset"
+        />
+        <div
+          style={{
+            width: "100%",
+            position: "absolute",
+            textAlign: "center",
+            zIndex: -1,
+          }}>
+          <img src={logo} id="logoImage" className="logo" />
+        </div>
+        <img
+          src={backgroundImage}
+          id="headerImage"
+          className="headerImage"
+          // style={{ width: "100%" }}
+        />
+        <div className="scroll-down">
+          <p>scroll down</p>
+        </div>
       </div>
-      <img src={backgroundImage} id="headerImage" className="headerImage" />
     </>
   );
 };

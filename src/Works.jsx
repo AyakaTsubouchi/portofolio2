@@ -7,7 +7,7 @@ import { Row, Col, Container } from "react-materialize";
 const Works = () => {
   return (
     <>
-      <div className="work container">
+      <div className="work wrapper">
         <h1 className="section-title">WORKS</h1>
 
         <div className="work_contents">

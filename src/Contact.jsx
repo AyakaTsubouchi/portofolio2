@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <>
-      <div className="contact container">
+      <div className="contact wrapper">
         <h1 className="section-title">CONTACT</h1>
         <p>Feel free to contact me</p>
         <div className="contact_contents">

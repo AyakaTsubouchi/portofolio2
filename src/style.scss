@@ -26,12 +26,13 @@ $font: #478eb4;
   color: $font;
   font-family: $bodyFont;
 }
-.container {
+.wrapper {
   height: 100vh;
+  margin-top: 50px;
 }
 
 .section-title {
-  font-size: 10em;
+  font-size: 8em;
 }
 // HEADER section
 .header-style {
@@ -46,6 +47,36 @@ $font: #478eb4;
   top: 10;
   left: 10;
   color: $font;
+  font-size: 1.5em;
+}
+.menu-icon:hover {
+  color: white;
+  cursor: pointer;
+}
+.sidenav {
+  // background-color: $bg;
+  background-color: white;
+  opacity: 0.5;
+  color: $font;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+//it's overwritten by materizlize css
+// .sidenav-item {
+//   li {
+//     a {
+//       color: $font;
+//     }
+//   }
+// }
+
+//TOP section
+.scroll-down {
+  position: absolute;
+  width: 100%;
+  top: 60%;
+  text-align: center;
 }
 
 // ABOUT section
@@ -56,27 +87,12 @@ $font: #478eb4;
 }
 .aboutContents {
   height: 100vh;
-  width: 90%;
+  width: 100%;
   display: flex;
   justify-content: center;
   .left-container {
-    width: 50%;
     img {
       width: 100%;
-    }
-  }
-  .right-container {
-    width: 50%;
-    .text-area {
-      width: 100%;
-      padding: 30px;
-      font-size: 1.2em;
-      .spacer {
-        height: 10px;
-      }
-      h2 {
-        font-size: 2em;
-      }
     }
   }
 }
@@ -121,6 +137,7 @@ $font: #478eb4;
 
 //CONTACT section
 .contact {
+  text-align: center;
   i {
     font-size: 30px;
     margin: 3px;
