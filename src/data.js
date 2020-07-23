@@ -1,4 +1,4 @@
-const workData = [
+export const workData = [
   {
     img:
       "https://raw.githubusercontent.com/AyakaTsubouchi/portfolio2/b75d0c02125690d0d71aaf606b4d9b2fbd22c048/src/img/fourcast.png",

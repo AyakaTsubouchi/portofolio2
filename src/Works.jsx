@@ -8,9 +8,9 @@ import { workData } from "./data";
 
 const Works = (props) => {
   const duration = props.aosSetting.duration;
-
   return (
     <>
+      {console.log("workdata", workData)}
       <div className="work wrapper">
         <div data-aos="fade-up" data-aos-duration={duration}>
           <h1 className="section-title">WORKS</h1>
