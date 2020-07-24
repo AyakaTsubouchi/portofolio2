@@ -4,13 +4,13 @@ const Contact = (props) => {
   const duration = props.aosSetting.duration;
   return (
     <>
-      <div className="contact wrapper">
+      <div className="contact">
         <div data-aos="fade-up" data-aos-duration={duration}>
           <h1 className="section-title">CONTACT</h1>
           <p>Feel free to contact me</p>
         </div>
         <div data-aos="fade-up" data-aos-duration={duration}>
-          <div className="contact_contents">
+          <div className="contact-contents">
             <a href="https://www.linkedin.com/in/ayaka-tsubouchi-b0474718a/">
               <i class="fab fa-linkedin" />
             </a>
@@ -25,6 +25,9 @@ const Contact = (props) => {
               <i class="fas fa-envelope-square" />
             </a>
           </div>
+        </div>
+        <div className="back-to-top">
+          <p>Top</p>
         </div>
       </div>
     </>

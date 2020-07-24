@@ -237,8 +237,14 @@ $laptop: "1200px";
 .contact {
   text-align: center;
   height: 100vh;
-  i {
-    font-size: 5em;
-    margin: 3px;
+  h1 {
+    padding-top: 130px;
+  }
+  .contact-contents {
+    margin-top: 10%;
+    i {
+      font-size: 5em;
+      margin: 3px;
+    }
   }
 }
