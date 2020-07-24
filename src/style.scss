@@ -14,9 +14,6 @@ $laptop: "1200px";
   color: $font;
   font-family: $bodyFont;
 }
-.wrapper {
-  // height: 100vh;
-}
 
 .section-title {
   font-size: 8em;
@@ -83,9 +80,7 @@ $laptop: "1200px";
 .scroll-down {
   color: white;
 }
-.top {
-  height: 100vh;
-}
+
 .scroll-down {
   position: absolute;
   top: 40%;
@@ -94,6 +89,15 @@ $laptop: "1200px";
 
   transform: rotate(90deg);
   animation: blinker 2s linear infinite;
+}
+.top-title {
+  position: absolute;
+  top: 40%;
+  right: 50%;
+  color: white;
+  .name {
+    font-size: 20vw;
+  }
 }
 
 @keyframes blinker {
@@ -129,6 +133,14 @@ $laptop: "1200px";
   .left-container {
     img {
       width: 100%;
+    }
+  }
+}
+@media (max-width: $mobile) {
+  .left-container {
+    img {
+      width: 0;
+      height: 0;
     }
   }
 }

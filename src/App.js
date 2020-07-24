@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Header from "./Header";
 import Top from "./Top";
 import About from "./About";
-import Works from "./Works";
+import Works from "./Works/";
 import Contact from "./Contact";
 import "./style.scss";
 import styled from "styled-components";

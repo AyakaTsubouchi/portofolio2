@@ -1,6 +1,6 @@
 import React from "react";
-import Work1 from "./img/fourcast.png";
-import Work2 from "./img/weatherApp.png";
+import Work1 from "../img/fourcast.png";
+import Work2 from "../img/weatherApp.png";
 import "materialize-css";
 import { Row, Col } from "react-materialize";
 import Mymodal from "./Mymodal";

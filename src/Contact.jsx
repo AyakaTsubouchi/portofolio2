@@ -21,6 +21,9 @@ const Contact = (props) => {
             <a href="https://twitter.com/tUsUNjoU2wU0mZD">
               <i class="fab fa-twitter-square" />
             </a>
+            <a href="mailto:ayakawell@gmail.com">
+              <i class="fas fa-envelope-square" />
+            </a>
           </div>
         </div>
       </div>
