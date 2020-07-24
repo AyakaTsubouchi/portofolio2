@@ -3,6 +3,17 @@ import "materialize-css";
 import { SideNav, Icon, SideNavItem } from "react-materialize";
 
 const Header = () => {
+  const Trigger = () => {
+    return (
+      <>
+        <div className="my-menu">
+          <Icon className="menu-icon">menu</Icon>
+          <p className="menu-text">Aya's Portfolit</p>
+        </div>
+      </>
+    );
+  };
+
   return (
     <>
       <div>
@@ -21,7 +32,7 @@ const Header = () => {
           className="side-nav"
           trigger={
             <a>
-              <Icon className="menu-icon">menu</Icon>
+              <Trigger />
             </a>
           }>
           <SideNavItem href="#top" waves className="sidenav-item">
@@ -30,13 +41,10 @@ const Header = () => {
           <SideNavItem href="#about" waves className="sidenav-item">
             About
           </SideNavItem>
-
-          <SideNavItem subheader></SideNavItem>
-          <SideNavItem href="#works" waves>
+          <SideNavItem href="#works" waves className="sidenav-item">
             Works
           </SideNavItem>
-          <SideNavItem subheader></SideNavItem>
-          <SideNavItem href="#contact" waves>
+          <SideNavItem href="#contact" waves className="sidenav-item">
             Contact
           </SideNavItem>
         </SideNav>

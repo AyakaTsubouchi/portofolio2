@@ -2,59 +2,34 @@ import React, { useState, useEffect } from "react";
 import Header from "./Header";
 import Top from "./Top";
 import About from "./About";
-import Works from "./Works";
+import Works from "./Works/";
 import Contact from "./Contact";
 import "./style.scss";
 import styled from "styled-components";
 
 const App = () => {
+  const aosSetting = {
+    duration: "2000",
+  };
   return (
-    <div className="app">
-      <Header />
-      <div id="top">
-        <Top />
-      </div>
+    <>
+      <div className="app">
+        <Header />
+        <div id="top">
+          <Top />
+        </div>
 
-      <div id="about">
-        <div
-          data-aos="fade-up"
-          data-aos-offset="50"
-          data-aos-delay="50"
-          data-aos-duration="500"
-          data-aos-easing="ease-in"
-          data-aos-mirror="true"
-          // data-aos-once="false"
-          data-aos-anchor-placement="top-center">
-          <About />
+        <div id="about">
+          <About aosSetting={aosSetting} />
         </div>
+        <div id="works">
+          <Works aosSetting={aosSetting} />
+        </div>
+        <dir id="contact">
+          <Contact aosSetting={aosSetting} />
+        </dir>
       </div>
-      <div id="works">
-        <div
-          data-aos="fade-up"
-          data-aos-offset="200"
-          data-aos-delay="50"
-          data-aos-duration="500"
-          data-aos-easing="ease-in"
-          data-aos-mirror="true"
-          // data-aos-once="false"
-          data-aos-anchor-placement="top-center">
-          <Works />
-        </div>
-      </div>
-      <dir id="contact">
-        <div
-          data-aos="fade-up"
-          data-aos-offset="50"
-          data-aos-delay="50"
-          data-aos-duration="500"
-          data-aos-easing="ease-in"
-          data-aos-mirror="true"
-          // data-aos-once="false"
-          data-aos-anchor-placement="top-center">
-          <Contact />
-        </div>
-      </dir>
-    </div>
+    </>
   );
 };
 
