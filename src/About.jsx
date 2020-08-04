@@ -21,20 +21,21 @@ const About = (props) => {
               <Col s={12} m={6} l={6} xl={6} className="right-container">
                 <div className="text-area">
                   <div className="title">
-                    <h3>Ayaka</h3>
+                    <h3>Ayaka Tsubouchi</h3>
 
                     <p>Front-End Developer</p>
                   </div>
 
                   <div className="spacer"></div>
-                  <p>
-                    Skilled in JavaScript, React, Redux, jQuery, Node.js, Java,
-                    HTML5, CSS3, SaSS.　
+                   <p>
+                    I am a front-end developer who is passionate about building
+                    in JavaScript.
                   </p>
                   <br />
-                  <p>
-                    I am a front-end developer who is passionate about building
-                    in JavaScript (including React).
+               
+                    <p>
+                    Skilled in JavaScript, React, Redux, jQuery, Node.js, Java,
+                    HTML5, CSS3, SaSS.　
                   </p>
                   <div className="spacer"></div>
                   <div className="spacer"></div>

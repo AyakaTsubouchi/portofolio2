@@ -170,7 +170,7 @@ $laptop: "1200px";
     display: block;
     width: 100%;
 
-    height: auto;
+    height: 200px;
     transition: 0.5s ease;
     backface-visibility: hidden;
   }
@@ -209,7 +209,6 @@ $laptop: "1200px";
 
 .work_container:hover .image {
   opacity: 0.2;
-  // cursor: pointer;
 }
 
 .work_container:hover .overlay {
@@ -217,7 +216,6 @@ $laptop: "1200px";
 }
 
 .work-modal {
-  // color: $font;
   h1 {
     font-size: 30px;
   }

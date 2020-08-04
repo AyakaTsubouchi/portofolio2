@@ -11,14 +11,14 @@ const Contact = (props) => {
         </div>
         <div data-aos="fade-up" data-aos-duration={duration}>
           <div className="contact-contents">
-            <a href="https://www.linkedin.com/in/ayaka-tsubouchi-b0474718a/">
+            <a href="https://www.linkedin.com/in/ayaka-tsubouchi-b0474718a/" target="_blank">
               <i class="fab fa-linkedin" />
             </a>
-            <a href="https://www.instagram.com/ayakaru1122/">
+            <a href="https://www.instagram.com/ayakaru1122/" target="_blank">
               <i class="fab fa-instagram-square" />
             </a>
 
-            <a href="https://twitter.com/tUsUNjoU2wU0mZD">
+            <a href="https://twitter.com/tUsUNjoU2wU0mZD" target="_blank">
               <i class="fab fa-twitter-square" />
             </a>
             <a href="mailto:ayakawell@gmail.com">
