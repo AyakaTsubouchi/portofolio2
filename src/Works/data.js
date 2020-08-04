@@ -1,25 +1,26 @@
 export const workData = [
   {
     img:
-      "https://raw.githubusercontent.com/AyakaTsubouchi/portfolio2/b75d0c02125690d0d71aaf606b4d9b2fbd22c048/src/img/fourcast.png",
-    github: "https://github.com/AyakaTsubouchi/what-to-wear",
-    web: "https://github.com/AyakaTsubouchi/what-to-wear",
-    title: "fourcast",
+      "https://github.com/AyakaTsubouchi/portfolio2/blob/master/src/img/todo.png?raw=true",
+    github: "https://github.com/AyakaTsubouchi/todo-graphql-react-mongodb",
+    web: "https://github.com/AyakaTsubouchi/todo-graphql-react-mongodb",
+    title: "Todo list",
     disc:
-      "fourcast is the ecommerce site.it suggests the fashion based on the weather.",
-    why: "I always wonder what I should wear. so I create it.",
-    tech: "React/something/something",
+      "Full stack CRUD app",
+  
+    skill: "React.js/MongoDB/GraphQL/",
+    tech: "React.js/MongoDB/GraphQL/",
   },
   {
     img:
-      "https://raw.githubusercontent.com/AyakaTsubouchi/portfolio2/b75d0c02125690d0d71aaf606b4d9b2fbd22c048/src/img/fourcast.png",
-    github: "https://github.com/AyakaTsubouchi/what-to-wear",
-    web: "https://github.com/AyakaTsubouchi/what-to-wear",
-    title: "watchMeButDon'tBotherMe",
-    disc: "SNS site to study",
-    why:
-      "SNS is one of the big distructions of study. so I try to make it on my side",
-    tech: "React/something/something",
+      "https://github.com/AyakaTsubouchi/portfolio2/blob/master/src/img/larry.png?raw=true",
+    github: "",
+    web: "",
+    title: "Landing page",
+    disc: "This is a team project in CICCC with real client.",
+
+    skill: "React.js/MongoDB/GraphQL/",
+    tech: "React.js/React hooks/Sass",
   },
   {
     img:
@@ -28,7 +29,8 @@ export const workData = [
     web: "https://github.com/AyakaTsubouchi/what-to-wear",
     title: "3rd",
     disc: "fdf",
-    why: "fdfdthe big distructions of study. so if",
+
+    skill: "React.js/MongoDB/GraphQL/",
     tech: "React/something/something",
   },
 ];

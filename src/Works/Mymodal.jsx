@@ -31,13 +31,10 @@ const Mymodal = (props) => {
             <img src={img} alt="weather" />
           </a>
           <div className="text-container">
-            <h5>What is WhatToWear</h5>
+            <h5>Discription</h5>
             <p>{disc}</p>
           </div>
-          <div className="text-container">
-            <h5>Why I created this app</h5>
-            <p>{why}</p>
-          </div>
+        
           <div className="text-container">
             <h5>Technology</h5>
             <p>{tech}</p>

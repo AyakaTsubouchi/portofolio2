@@ -21,33 +21,34 @@ const Works = (props) => {
               <Col s={12} m={6} l={6} xl={6} className="left-container">
                 <div className="work_container">
                   <img
-                    src={Work1}
+                    src={workData[0].img}
                     alt="work"
                     className="image"
                     style={{ width: "100%" }}
                   />
                   <div className="overlay">
-                    <p>Fourcast</p>
-                    <p>React/Firebase</p>
+                    <p>{workData[0].title}</p>
+                    <p>{workData[0].skill}</p>
                     <Mymodal data={workData[0]} />
                   </div>
                 </div>
               </Col>
-              <Col s={12} m={6} l={6} xl={6} className="right-container">
+              <Col s={12} m={6} l={6} xl={6} className="left-container">
                 <div className="work_container">
                   <img
-                    src={Work2}
-                    alt="work2"
+                    src={workData[1].img}
+                    alt="work"
                     className="image"
                     style={{ width: "100%" }}
                   />
                   <div className="overlay">
-                    <p>Fourcast</p>
-                    <p>React/Firebase</p>
+                    <p>{workData[1].title}</p>
+                    <p>{workData[1].skill}</p>
                     <Mymodal data={workData[1]} />
                   </div>
                 </div>
               </Col>
+             
             
             </Row>
           </div>
