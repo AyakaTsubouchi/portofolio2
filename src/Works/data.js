@@ -19,18 +19,18 @@ export const workData = [
     title: "Landing page",
     disc: "This is a team project in CICCC with real client.",
 
-    skill: "React.js/MongoDB/GraphQL/",
+    skill: "React.js/React hooks/Sass",
     tech: "React.js/React hooks/Sass",
   },
   {
     img:
-      "https://raw.githubusercontent.com/AyakaTsubouchi/portfolio2/b75d0c02125690d0d71aaf606b4d9b2fbd22c048/src/img/fourcast.png",
-    github: "https://github.com/AyakaTsubouchi/what-to-wear",
-    web: "https://github.com/AyakaTsubouchi/what-to-wear",
-    title: "3rd",
-    disc: "fdf",
+      "https://github.com/AyakaTsubouchi/portfolio2/blob/master/src/img/weatherApp.png?raw=true",
+    github: "https://github.com/AyakaTsubouchi/weatherApp_React_ContextAPI",
+    web: "https://ayakatsubouchi.github.io/weatherApp_React_ContextAPI/r",
+    title: "Weather app",
+    disc: "weather forecast app",
 
-    skill: "React.js/MongoDB/GraphQL/",
-    tech: "React/something/something",
+    skill: "React.js/React Context/ etc...",
+    tech: "",
   },
 ];

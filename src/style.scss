@@ -158,10 +158,18 @@ $laptop: "1200px";
 .work_container {
   position: relative;
   width: 100%;
+  h5{
+    font-size:1em;
+  }
+  p{
+    font-size:0.7em;
+    margin-bottom:20px;
+  }
   img {
     opacity: 1;
     display: block;
     width: 100%;
+
     height: auto;
     transition: 0.5s ease;
     backface-visibility: hidden;
@@ -184,6 +192,9 @@ $laptop: "1200px";
   a {
     color: $font;
     border: 1px $font solid;
+    font-size:0.8em;
+    padding:5px;
+
   }
   a:hover {
     cursor: pointer;

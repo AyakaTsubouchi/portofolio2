@@ -26,9 +26,7 @@ const Contact = (props) => {
             </a>
           </div>
         </div>
-        <div className="back-to-top">
-          <p>Top</p>
-        </div>
+    
       </div>
     </>
   );
