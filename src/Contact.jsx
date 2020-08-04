@@ -8,6 +8,8 @@ const Contact = (props) => {
         <div data-aos="fade-up" data-aos-duration={duration}>
           <h1 className="section-title">CONTACT</h1>
           <p>Feel free to contact me</p>
+         <h3>ayakawell@gmail.com</h3>
+          
         </div>
         <div data-aos="fade-up" data-aos-duration={duration}>
           <div className="contact-contents">
@@ -21,7 +23,10 @@ const Contact = (props) => {
             <a href="https://twitter.com/tUsUNjoU2wU0mZD" target="_blank">
               <i class="fab fa-twitter-square" />
             </a>
-            <a href="mailto:ayakawell@gmail.com">
+            <a href="https://github.com/" target="_blank">
+             <i class="fab fa-github-square"></i>
+            </a>
+            <a href="mailto:ayakawell@gmail.com" target="_blank">
               <i class="fas fa-envelope-square" />
             </a>
           </div>
