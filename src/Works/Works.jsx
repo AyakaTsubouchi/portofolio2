@@ -48,21 +48,7 @@ const Works = (props) => {
                   </div>
                 </div>
               </Col>
-              <Col s={12} m={6} l={6} xl={6} className="right-container">
-                <div className="work_container">
-                  <img
-                    src={Work2}
-                    alt="work2"
-                    className="image"
-                    style={{ width: "100%" }}
-                  />
-                  <div className="overlay">
-                    <p>Fourcast</p>
-                    <p>React/Firebase</p>
-                    <Mymodal data={workData[2]} />
-                  </div>
-                </div>
-              </Col>
+            
             </Row>
           </div>
         </div>
