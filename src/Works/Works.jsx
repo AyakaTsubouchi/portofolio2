@@ -4,8 +4,9 @@ import Work2 from "../img/weatherApp.png";
 import "materialize-css";
 import { Row, Col } from "react-materialize";
 import Mymodal from "./Mymodal";
+import BlogList from "./BlogList";
 
-import WorkList from './WorkList'
+import WorkList from "./WorkList";
 
 const Works = (props) => {
   const duration = props.aosSetting.duration;
@@ -17,8 +18,15 @@ const Works = (props) => {
         </div>
         <div className="work_contents">
           <div data-aos="fade-up" data-aos-duration={duration}>
+            <h5>PROJECTS</h5>
             <Row>
-              <WorkList/>
+              <WorkList />
+            </Row>
+          </div>
+          <div data-aos="fade-up" data-aos-duration={duration}>
+            <h5>BLOG</h5>
+            <Row>
+              <BlogList />
             </Row>
           </div>
         </div>

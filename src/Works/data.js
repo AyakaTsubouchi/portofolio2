@@ -5,9 +5,8 @@ export const workData = [
     github: "https://github.com/AyakaTsubouchi/todo-graphql-react-mongodb",
     web: "https://github.com/AyakaTsubouchi/todo-graphql-react-mongodb",
     title: "Todo list",
-    disc:
-      "Full stack CRUD app",
-  
+    disc: "Full stack CRUD app",
+
     skill: "React.js/MongoDB/GraphQL/",
     tech: "React.js/MongoDB/GraphQL/",
   },
@@ -32,5 +31,20 @@ export const workData = [
 
     skill: "React.js/React Context/ etc...",
     tech: "",
+  },
+];
+
+export const blogData = [
+  {
+    img: "https://miro.medium.com/max/1400/0*BS0qd3AuZWQnN5ds",
+    title: "What is the ContextAPI in React?",
+    url:
+      "https://medium.com/@ayakawell/what-is-the-contextapi-in-react-448bdda7ef15",
+  },
+  {
+    img: "https://miro.medium.com/max/1400/0*afasLqrwz0urheY7",
+    title: "How to handle the scroll event in JavaScript?",
+    url:
+      "https://medium.com/@ayakawell/how-to-handle-the-scroll-event-in-javascript-d8be610ff5c4",
   },
 ];
