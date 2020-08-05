@@ -1,8 +1,7 @@
 import React from "react";
-
 import backgroundImage from "./img/image.jpg";
 import logo from "./img/logo.png";
-// import logo from "./img/shtick-logo-wit.png";
+
 
 import displacementMapImage from "./img/blur.png";
 
