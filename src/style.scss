@@ -125,13 +125,28 @@ $laptop: "1200px";
   display: flex;
   justify-content: center;
   .text-area {
+    .row {
+      margin-top: 50px;
+    }
     .title {
       margin-bottom: 20px;
       h3 {
         margin-bottom: 0;
       }
       p {
-        margin-top: 0;
+        margin-top: 5px;
+        font-size: 1.5em;
+      }
+    }
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      li {
+        color: $font;
+        border: 1px $font solid;
+        font-size: 0.8em;
+        padding: 5px;
+        margin: 5px;
       }
     }
   }
@@ -157,9 +172,20 @@ $laptop: "1200px";
   .work_contents {
     width: 80%;
     margin: 100px auto;
+    .content {
+      margin-top: 70px;
+      .row {
+        margin-top: 20px;
+      }
+      h5 {
+        font-size: 2em;
+        text-align: center;
+      }
+    }
   }
 }
 
+//WorkList
 .work_container {
   position: relative;
   width: 100%;
@@ -262,8 +288,6 @@ $laptop: "1200px";
     width: 100%;
     object-fit: cover;
     height: 300px;
-    // transition: 0.5s ease;
-    // backface-visibility: hidden;
   }
 
   .overlay {

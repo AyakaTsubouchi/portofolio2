@@ -17,13 +17,19 @@ const Works = (props) => {
           <h1 className="section-title">WORKS</h1>
         </div>
         <div className="work_contents">
-          <div data-aos="fade-up" data-aos-duration={duration}>
+          <div
+            className="content"
+            data-aos="fade-up"
+            data-aos-duration={duration}>
             <h5>PROJECTS</h5>
             <Row>
               <WorkList />
             </Row>
           </div>
-          <div data-aos="fade-up" data-aos-duration={duration}>
+          <div
+            className="content"
+            data-aos="fade-up"
+            data-aos-duration={duration}>
             <h5>BLOG</h5>
             <Row>
               <BlogList />

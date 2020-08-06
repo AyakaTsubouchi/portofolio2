@@ -2,7 +2,19 @@ import React from "react";
 import Image from "./img/aboutPic.jpg";
 import "materialize-css";
 import { Row, Col, Container } from "react-materialize";
-import { createRenderer } from "react-dom/test-utils";
+
+const aboutData = {
+  skill: [
+    "JavaScript",
+    "React",
+    "Redux",
+    "jQuery",
+    " Node.js",
+    " HTML5",
+    "CSS3",
+    "SaSS",
+  ],
+};
 
 const About = (props) => {
   const duration = props.aosSetting.duration;
@@ -20,30 +32,34 @@ const About = (props) => {
               </Col>
               <Col s={12} m={6} l={6} xl={6} className="right-container">
                 <div className="text-area">
-                  <div className="title">
-                    <h3>Ayaka Tsubouchi</h3>
+                  <Row>
+                    <div className="title">
+                      <h3>Ayaka Tsubouchi</h3>
 
-                    <p>Front-End Developer</p>
-                  </div>
+                      <p>Front-End Developer</p>
+                    </div>
 
-                  <div className="spacer"></div>
-                   <p>
-                    I am a front-end developer who is passionate about building
-                    in JavaScript.
-                  </p>
-                  <br />
-               
                     <p>
-                    Skilled in JavaScript, React, Redux, jQuery, Node.js, Java,
-                    HTML5, CSS3, SaSS.　
-                  </p>
-                  <div className="spacer"></div>
-                  <div className="spacer"></div>
-                  <h4>SKILLS</h4>
-                  <p>
-                    Languages Mainly writing Javascript for React with VS
-                    Code.HTML & CSS /JavaScript HTML & CSS /JavaScript/GitHub/
-                  </p>
+                      I am a front-end developer who is passionate about
+                      building in JavaScript.
+                    </p>
+                    <br />
+
+                    <p>
+                      Skilled in JavaScript, React, Redux, jQuery, Node.js,
+                      Java, HTML5, CSS3, SaSS.　
+                    </p>
+                  </Row>
+                  <Row>
+                    <h4>SKILLS</h4>
+                    <ul>
+                      {aboutData.skill.map((item) => (
+                        <>
+                          <li>{item}</li>
+                        </>
+                      ))}
+                    </ul>
+                  </Row>
                 </div>
               </Col>
             </Row>
