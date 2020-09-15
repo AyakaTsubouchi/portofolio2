@@ -13,19 +13,19 @@ export const workData = [
   {
     img:
       "https://github.com/AyakaTsubouchi/portfolio2/blob/master/src/img/larry.png?raw=true",
-    github: "",
-    web: "",
-    title: "Landing page",
+    web: "http://livewellwithpd.com/",
+    title: "Larry's website",
     disc: "This is a team project in CICCC with real client.",
 
     skill: "React.js/React hooks/Sass",
+    techDisc:"I developed front-end architecture such as directory structure, how to separate component. Also making some components using React.js.",
     tech: "React.js/React hooks/Sass",
   },
   {
     img:
       "https://github.com/AyakaTsubouchi/portfolio2/blob/master/src/img/weatherApp.png?raw=true",
     github: "https://github.com/AyakaTsubouchi/weatherApp_React_ContextAPI",
-    web: "https://ayakatsubouchi.github.io/weatherApp_React_ContextAPI/r",
+    web: "https://ayakatsubouchi.github.io/weatherApp_React_ContextAPI/",
     title: "Weather app",
     disc: "weather forecast app",
 

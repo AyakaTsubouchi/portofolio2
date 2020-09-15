@@ -2,7 +2,7 @@ import React from "react";
 import { Modal, Button } from "react-materialize";
 
 const Mymodal = (props) => {
-  const { img, github, web, title, disc, tech } = props.data;
+  const { img, github, web, title, disc, techDisc, tech } = props.data;
   return (
     <>
       <Modal
@@ -34,18 +34,20 @@ const Mymodal = (props) => {
             <h5>Discription</h5>
             <p>{disc}</p>
           </div>
-
           <div className="text-container">
             <h5>Technology</h5>
+{techDisc? (<p>{techDisc}</p>) : null}
             <p>{tech}</p>
           </div>
           <div className="text-container button">
-            <a href={github} target="blank">
+          {github?  <a href={github} target="blank">
               View Github
-            </a>
-            <a href={web} target="blank">
+            </a> : null}
+          {web?  <a href={web} target="blank">
               Visit Website
-            </a>
+            </a> : null}
+           
+            
           </div>
         </div>
       </Modal>

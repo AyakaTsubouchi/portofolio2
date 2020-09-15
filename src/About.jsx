@@ -41,17 +41,26 @@ const About = (props) => {
 
                     <p>
                       I am a front-end developer who is passionate about
-                      building in JavaScript.
+                      building in JavaScript. I Keep in mind to write readable
+                      and maintainable code.
                     </p>
-                    <br />
+                    <Row className="about-specialties-row">
+                      <h4>Specialties</h4>
+                      <ul>
+                        <li>
+                          <i class="fab fa-react"></i>
+                          <p>react.js</p>
+                        </li>
 
-                    <p>
-                      Skilled in JavaScript, React, Redux, jQuery, Node.js,
-                      Java, HTML5, CSS3, SaSS.　
-                    </p>
+                        <li>
+                          <i class="fab fa-js-square"></i>
+                          <p>JavaScript</p>
+                        </li>
+                      </ul>
+                    </Row>
                   </Row>
                   <Row>
-                    <h4>SKILLS</h4>
+                    <h4>Other Skills</h4>
                     <ul>
                       {aboutData.skill.map((item) => (
                         <>
