@@ -38,7 +38,6 @@ const About = (props) => {
 
                       <p>Front-End Developer</p>
                     </div>
-
                     <p>
                       I am a front-end developer who is passionate about
                       building in JavaScript. I Keep in mind to write readable
@@ -51,7 +50,6 @@ const About = (props) => {
                           <i class="fab fa-react"></i>
                           <p>react.js</p>
                         </li>
-
                         <li>
                           <i class="fab fa-js-square"></i>
                           <p>JavaScript</p>

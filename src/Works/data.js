@@ -32,6 +32,17 @@ export const workData = [
     skill: "React.js/React Context/ etc...",
     tech: "",
   },
+  {
+    img:
+      "https://github.com/AyakaTsubouchi/portfolio2/blob/master/src/img/fitness.png?raw=true",
+    github: "https://github.com/AyakaTsubouchi/MERN-fitness-tracker",
+    web: "https://fitness-tracker-aya.herokuapp.com/",
+    title: "Fitness tracker",
+    disc: "MERN stack app",
+
+    skill: "MongoDB/React.js/Node.js/ etc...",
+    tech: "MongoDB/React.js/Node.js/Express/",
+  }
 ];
 
 export const blogData = [
