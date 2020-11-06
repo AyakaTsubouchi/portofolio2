@@ -14,7 +14,7 @@ const Works = (props) => {
     <>
       <div className="work wrapper">
         <div data-aos="fade-up" data-aos-duration={duration}>
-          <h1 className="section-title">WORKS</h1>
+          <h1 className="section-title">What I made</h1>
         </div>
         <div className="work_contents">
           <div

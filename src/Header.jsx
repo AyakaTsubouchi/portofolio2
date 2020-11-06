@@ -42,7 +42,7 @@ const Header = () => {
             About
           </SideNavItem>
           <SideNavItem href="#works" waves className="sidenav-item">
-            Works
+            Projects
           </SideNavItem>
           <SideNavItem href="#contact" waves className="sidenav-item">
             Contact
