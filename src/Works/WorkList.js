@@ -17,6 +17,7 @@ const WorkList = () => {
                     alt="work"
                     className="image"
                   />
+                  
                   <div className="overlay">
                     <h5>{item.title}</h5>
                     <p>{item.skill}</p>

@@ -1,0 +1,39 @@
+@import 'setting';
+.my-menu {
+    position: fixed;
+    top: 10px;
+    left: 40px;
+    display: flex;
+  
+    .menu-icon {
+      color: white;
+      font-size: 20px;
+      padding-top: 3%;
+    }
+  }
+  .my-menu:hover {
+    cursor: pointer;
+  }
+  .menu-text {
+    color: white;
+    font-size: 3vw;
+    font-family: $logo;
+  }
+  
+  .sidenav {
+    background-color: white;
+    opacity: 0.8;
+  
+    text-align: center;
+  
+    font-family: $bodyFont;
+    padding-top: 100px;
+    .sidenav-item {
+      padding-top: 50px;
+      a {
+        font-size: 2em;
+        color: $bodyFont !important;
+      }
+    }
+  }
+  

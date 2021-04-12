@@ -1,0 +1,34 @@
+@import 'setting';
+
+h1.section-title {
+    color: white;
+}
+.app {
+    color: $font;
+    font-family: $bodyFont;
+
+    font-size: 1.2em;
+    overflow-x: hidden;
+}
+
+.section-title {
+    font-size: 8em;
+    text-align: center;
+}
+h2,h3,h4,h5{
+    color:white;
+}
+@media (max-width: $tablet) {
+    .section-title {
+        font-size: 3em;
+        text-align: center;
+    }
+    h5{
+        font-size: 1.5;
+    }
+}
+@media (max-width: $mobile) {
+    // .top {
+    //   height:100%;
+    // }
+}

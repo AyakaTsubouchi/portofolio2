@@ -13,6 +13,7 @@ const aboutData = {
     " HTML5",
     "CSS3",
     "SaSS",
+    "Wordpress",
   ],
 };
 

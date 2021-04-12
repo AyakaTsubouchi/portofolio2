@@ -1,0 +1,20 @@
+@import 'setting';
+
+.contact {
+    text-align: center;
+    height: 100vh;
+    h1 {
+      padding-top: 130px;
+    }
+    .contact-contents {
+      margin-top: 10%;
+      i {
+        font-size: 5em;
+        margin: 3px;
+        @media (max-width: $tablet) {
+            font-size: 3em;
+        }
+      }
+    }
+  }
+  

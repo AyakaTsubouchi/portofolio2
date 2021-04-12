@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react";
 import Header from "./Header";
 import Top from "./Top";
+import TopMobile from "./TopMobile";
 import About from "./About";
 import Works from "./Works/";
 import Contact from "./Contact";
-import "./style.scss";
-import styled from "styled-components";
+import "./scss/style.scss";
+
 
 const App = () => {
   const aosSetting = {

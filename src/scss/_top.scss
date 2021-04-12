@@ -1,0 +1,71 @@
+@import "setting";
+
+//TOP section
+.top {
+    .mobile {
+        display: none;
+      
+    }
+    @media (max-width: $tablet) {
+        .desktop {
+            display: none;
+        }
+        .mobile {
+            display: block;
+            height: 100vh;
+        }
+    }
+
+    .asset {
+        display: none;
+    }
+
+    .logo {
+        margin-top: 10%;
+        width: 100px;
+    }
+
+    .headerImage {
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+    }
+    .scroll-down {
+        color: white;
+    }
+
+    .scroll-down {
+        position: absolute;
+        top: 40%;
+        right: -10px;
+        font-size: 2vw;
+
+        transform: rotate(90deg);
+        animation: blinker 2s linear infinite;
+    }
+    .top-title {
+        position: absolute;
+        top: 40%;
+        right: 50%;
+        color: white;
+        .name {
+            font-size: 20vw;
+        }
+    }
+
+    @keyframes blinker {
+        50% {
+            opacity: 0;
+        }
+    }
+
+    .title-wrapper {
+        text-align: center;
+        color: white;
+        margin-top: 50%;
+        transform: translateY(-100px);
+        .title {
+            font-size: 7rem;
+        }
+    }
+}

@@ -1,0 +1,58 @@
+@import 'setting';
+.aboutContents {
+    // height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .text-area {
+      .row {
+        margin-top: 50px;
+        padding-left: 10px;
+      }
+      .about-specialties-row{
+        li{
+          border: 0px;
+        }
+      }
+      .title {
+        margin-bottom: 20px;
+        h3 {
+          margin-bottom: 0;
+          color: $font;
+        }
+        p {
+          margin-top: 5px;
+          font-size: 1.5em;
+        }
+      }
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        li {
+          color: $font;
+          border: 1px $font solid;
+          font-size: 0.8em;
+          padding: 5px;
+          margin: 5px;
+          i{
+            font-size: 4em;
+          }
+        }
+      }
+    }
+    .left-container {
+      margin-top: 50px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  @media (max-width: $mobile) {
+    .left-container {
+      img {
+        width: 0;
+        height: 0;
+      }
+    }
+  }
