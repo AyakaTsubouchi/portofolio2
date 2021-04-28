@@ -1,7 +1,7 @@
 export const workData = [
   {
     img:
-      "https://github.com/AyakaTsubouchi/portfolio2/blob/master/src/img/medprod?raw=true",
+      "https://github.com/AyakaTsubouchi/portfolio2/blob/master/src/img/medprod.png?raw=true",
     github: "https://github.com/AyakaTsubouchi/medical-store-theme",
     web: "http://medproducts.goopter.com/",
     title: "Wordpress Theme",
