@@ -1,6 +1,17 @@
 export const workData = [
   {
     img:
+      "https://github.com/AyakaTsubouchi/portfolio2/blob/master/src/img/kumme.png?raw=true",
+    github: "https://github.com/AyakaTsubouchi/ecommerce-wordpress-theme/",
+    web: "http://kumme.goopter.com/",
+    title: "Wordpress Theme",
+    disc: "e-commerce website. multilingual",
+
+    skill: "Wordpress theme/php/jQuery/HTML/SASS",
+    tech: "Wordpress theme/php/jQuery/HTML/SASS",
+  },
+  {
+    img:
       "https://github.com/AyakaTsubouchi/portfolio2/blob/master/src/img/medprod.png?raw=true",
     github: "https://github.com/AyakaTsubouchi/medical-store-theme",
     web: "http://medproducts.goopter.com/",
